@@ -34,7 +34,7 @@ func Record_int(str string) (uint, error) {
 }
 
 func Email_right(ema string) bool {
-	api_key := "d66871ff7ca0a597cdd3a4474ab10a8a2818bbe5"
+	api_key := "You api for hunter.io"
 	chek_email, err := email.CheckEmailWithHunter(ema, api_key)
 	if err != nil {
 		fmt.Println("Ошибка проверки:", err)
